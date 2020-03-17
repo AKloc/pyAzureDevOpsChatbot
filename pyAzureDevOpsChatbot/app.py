@@ -1,6 +1,9 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
 
+# zip -r deployable.zip pyAzureDevOpsChatbot
+# az webapp deployment source deployable.zip --resource-group "lzEngineeringPyBot" --name "lzEngineeringPyBot"
+
 import sys
 import traceback
 from datetime import datetime
