@@ -19,9 +19,9 @@ from botbuilder.core.integration import aiohttp_error_middleware
 from botbuilder.schema import Activity, ActivityTypes
 
 from bot import MyBot
-from config import DefaultConfig
+import config
 
-CONFIG = DefaultConfig()
+CONFIG = config.DefaultConfig()
 
 # Create adapter.
 # See https://aka.ms/about-bot-adapter to learn more about how bots work.
